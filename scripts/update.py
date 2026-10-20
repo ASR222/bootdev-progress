@@ -64,7 +64,7 @@ text{{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:#e6edf3}}
 <text x="27" y="36" class="h">Boot.dev</text>
 <text x="423" y="36" class="s" text-anchor="end">@{escape(HANDLE)}</text>
 <text x="27" y="82" class="lv">Level {p['level']}</text>
-<text x="{27 + 19 * len(f"Level {p['level']}") + 14}" y="80" class="r">{escape(p['role'])}</text>
+<text x="{27 + 17 * len(f"Level {p['level']}") + 14}" y="80" class="r">{escape(p['role'])}</text>
 <rect x="27" y="98" width="395" height="10" rx="5" fill="#21262d"/>
 <rect x="27" y="98" width="{bar:.1f}" height="10" rx="5" fill="#7c3aed"/>
 <text x="27" y="126" class="s">{p['xpForLevel']:,} / {p['xpTotalForLevel']:,} XP to level {p['level'] + 1}</text>

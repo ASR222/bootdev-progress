@@ -9,7 +9,7 @@ text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:#e6edf3}
 <text x="27" y="36" class="h">Boot.dev</text>
 <text x="423" y="36" class="s" text-anchor="end">@unlawfulform24</text>
 <text x="27" y="82" class="lv">Level 10</text>
-<text x="193" y="80" class="r">Apprentice</text>
+<text x="177" y="80" class="r">Apprentice</text>
 <rect x="27" y="98" width="395" height="10" rx="5" fill="#21262d"/>
 <rect x="27" y="98" width="218.7" height="10" rx="5" fill="#7c3aed"/>
 <text x="27" y="126" class="s">620 / 1,120 XP to level 11</text>
