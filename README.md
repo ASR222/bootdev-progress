@@ -9,16 +9,6 @@ A GitHub Action reads my public Boot.dev profile every day and updates this page
 |:-:|:-:|:-:|:-:|:-:|
 | **10** | Apprentice | 7,100 | 36 | Top 9.2% |
 
-## 📈 XP over time
-
-```mermaid
-xychart-beta
-    title "Total XP (last 2 days tracked)"
-    x-axis ["10-21", "10-20"]
-    y-axis "XP"
-    line [7100, 7100]
-```
-
 ## 🏆 Achievements unlocked
 
 | | Achievement | Requirement | Unlocked |
@@ -32,11 +22,10 @@ xychart-beta
 
 | Date | Level | XP | Lessons |
 |---|:-:|--:|:-:|
-| 2026-10-20 | 10 | 7,100 | 36 |
 | 2026-10-21 | 10 | 7,100 | 36 |
 
 ## 💻 Solutions & projects
 
 Code I write for Boot.dev courses and guided projects lives in [`solutions/`](solutions/), one folder per course.
 
-<sub>Last updated 2026-10-20 22:42 UTC · stats from the public Boot.dev API</sub>
+<sub>Last updated 2026-10-21 04:13 IST · stats from the public Boot.dev API</sub>

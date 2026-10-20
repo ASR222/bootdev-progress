@@ -14,6 +14,7 @@ HANDLE = os.environ.get("BOOTDEV_HANDLE", "unlawfulform24")
 API = f"https://api.boot.dev/v1/users/public/{HANDLE}"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HISTORY = os.path.join(ROOT, "data", "history.csv")
+IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 FIELDS = ["date", "level", "xp", "lessons", "percentile", "achievements"]
 
 
@@ -126,14 +127,14 @@ A GitHub Action reads my public Boot.dev profile every day and updates this page
 
 Code I write for Boot.dev courses and guided projects lives in [`solutions/`](solutions/), one folder per course.
 
-<sub>Last updated {dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M} UTC · stats from the public Boot.dev API</sub>
+<sub>Last updated {dt.datetime.now(IST):%Y-%m-%d %H:%M} IST · stats from the public Boot.dev API</sub>
 """
 
 
 def main():
     p, s, ach = get(), get("/stats"), get("/achievements")
     unlocked = [a for a in ach if a.get("unlockedAt")]
-    today = dt.date.today().isoformat()
+    today = dt.datetime.now(IST).date().isoformat()
     row = {
         "date": today,
         "level": p["level"],
@@ -143,6 +144,7 @@ def main():
         "achievements": len(unlocked),
     }
     history = [r for r in load_history() if r["date"] != today] + [{k: str(v) for k, v in row.items()}]
+    history.sort(key=lambda r: r["date"])
     save_history(history)
     with open(os.path.join(ROOT, "card.svg"), "w", encoding="utf-8") as f:
         f.write(card(p, s, unlocked))
