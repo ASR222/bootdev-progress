@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="205" viewBox="0 0 450 205" role="img" aria-label="Boot.dev progress for unlawfulform24">
+<style>
+text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:#e6edf3}
+.h{font-size:18px;font-weight:700}.s{font-size:12px;fill:#8b949e}
+.lv{font-size:30px;font-weight:800;fill:#facc15}.r{font-size:13px;fill:#c4b5fd;font-weight:600}
+.v{font-size:17px;font-weight:700;text-anchor:middle}.l{font-size:11px;fill:#8b949e;text-anchor:middle}
+</style>
+<rect x="0.5" y="0.5" width="449" height="204" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="27" y="36" class="h">Boot.dev</text>
+<text x="423" y="36" class="s" text-anchor="end">@unlawfulform24</text>
+<text x="27" y="82" class="lv">Level 10</text>
+<text x="193" y="80" class="r">Apprentice</text>
+<rect x="27" y="98" width="395" height="10" rx="5" fill="#21262d"/>
+<rect x="27" y="98" width="218.7" height="10" rx="5" fill="#7c3aed"/>
+<text x="27" y="126" class="s">620 / 1,120 XP to level 11</text>
+<line x1="27" y1="140" x2="423" y2="140" stroke="#21262d"/>
+<text x="76" y="168" class="v">7,100</text><text x="76" y="186" class="l">Total XP</text><text x="176" y="168" class="v">36</text><text x="176" y="186" class="l">Lessons</text><text x="274" y="168" class="v">Top 9.2%</text><text x="274" y="186" class="l">All-time</text><text x="374" y="168" class="v">4</text><text x="374" y="186" class="l">Achievements</text>
+</svg>

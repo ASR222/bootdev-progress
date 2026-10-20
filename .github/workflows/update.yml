@@ -1,0 +1,28 @@
+name: Update Boot.dev progress
+
+on:
+  schedule:
+    - cron: "30 18 * * *" # daily, around midnight IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/**, .github/workflows/**]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch progress and rebuild files
+        run: python3 scripts/update.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || { git commit -m "Boot.dev progress: $(date -u +%F)"; git push; }
