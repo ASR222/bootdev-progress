@@ -58,16 +58,16 @@ def card(p, s, unlocked):
 <style>
 text{{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:#e6edf3}}
 .h{{font-size:18px;font-weight:700}}.s{{font-size:12px;fill:#8b949e}}
-.lv{{font-size:30px;font-weight:800;fill:#facc15}}.r{{font-size:13px;fill:#c4b5fd;font-weight:600}}
+.lv{{font-size:30px;font-weight:800;fill:#ffffff}}.r{{font-size:13px;fill:#9fb0ff;font-weight:600}}
 .v{{font-size:17px;font-weight:700;text-anchor:middle}}.l{{font-size:11px;fill:#8b949e;text-anchor:middle}}
 </style>
-<rect x="0.5" y="0.5" width="449" height="204" rx="10" fill="#0d1117" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="449" height="204" rx="10" fill="#161616"/>
 <text x="27" y="36" class="h">Boot.dev</text>
 <text x="423" y="36" class="s" text-anchor="end">@{escape(HANDLE)}</text>
 <text x="27" y="82" class="lv">Level {p['level']}</text>
 <text x="{27 + 17 * len(f"Level {p['level']}") + 14}" y="80" class="r">{escape(p['role'])}</text>
 <rect x="27" y="98" width="395" height="10" rx="5" fill="#21262d"/>
-<rect x="27" y="98" width="{bar:.1f}" height="10" rx="5" fill="#7c3aed"/>
+<rect x="27" y="98" width="{bar:.1f}" height="10" rx="5" fill="#4F6BFF"/>
 <text x="27" y="126" class="s">{p['xpForLevel']:,} / {p['xpTotalForLevel']:,} XP to level {p['level'] + 1}</text>
 <line x1="27" y1="140" x2="423" y2="140" stroke="#21262d"/>
 {cells}
