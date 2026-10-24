@@ -13,10 +13,10 @@ A GitHub Action reads my public Boot.dev profile every day and updates this page
 
 ```mermaid
 xychart-beta
-    title "Total XP (last 4 days tracked)"
-    x-axis ["10-21", "10-22", "10-23", "10-24"]
+    title "Total XP (last 5 days tracked)"
+    x-axis ["10-21", "10-22", "10-23", "10-24", "10-25"]
     y-axis "XP"
-    line [7100, 7100, 7100, 7100]
+    line [7100, 7100, 7100, 7100, 7100]
 ```
 
 ## 🏆 Achievements unlocked
@@ -32,6 +32,7 @@ xychart-beta
 
 | Date | Level | XP | Lessons |
 |---|:-:|--:|:-:|
+| 2026-10-25 | 10 | 7,100 | 36 |
 | 2026-10-24 | 10 | 7,100 | 36 |
 | 2026-10-23 | 10 | 7,100 | 36 |
 | 2026-10-22 | 10 | 7,100 | 36 |
@@ -41,4 +42,4 @@ xychart-beta
 
 Code I write for Boot.dev courses and guided projects lives in [`solutions/`](solutions/), one folder per course.
 
-<sub>Last updated 2026-10-24 03:05 IST · stats from the public Boot.dev API</sub>
+<sub>Last updated 2026-10-25 02:35 IST · stats from the public Boot.dev API</sub>
