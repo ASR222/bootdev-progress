@@ -14,5 +14,5 @@ text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:#e6edf3}
 <rect x="27" y="98" width="218.7" height="10" rx="5" fill="#4F6BFF"/>
 <text x="27" y="126" class="s">620 / 1,120 XP to level 11</text>
 <line x1="27" y1="140" x2="423" y2="140" stroke="#21262d"/>
-<text x="76" y="168" class="v">7,100</text><text x="76" y="186" class="l">Total XP</text><text x="176" y="168" class="v">36</text><text x="176" y="186" class="l">Lessons</text><text x="274" y="168" class="v">Top 9.2%</text><text x="274" y="186" class="l">All-time</text><text x="374" y="168" class="v">4</text><text x="374" y="186" class="l">Achievements</text>
+<text x="76" y="168" class="v">7,100</text><text x="76" y="186" class="l">Total XP</text><text x="176" y="168" class="v">37</text><text x="176" y="186" class="l">Lessons</text><text x="274" y="168" class="v">Top 9.2%</text><text x="274" y="186" class="l">All-time</text><text x="374" y="168" class="v">4</text><text x="374" y="186" class="l">Achievements</text>
 </svg>
