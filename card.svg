@@ -11,8 +11,8 @@ text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:#e6edf3}
 <text x="27" y="82" class="lv">Level 11</text>
 <text x="177" y="80" class="r">Apprentice</text>
 <rect x="27" y="98" width="395" height="10" rx="5" fill="#21262d"/>
-<rect x="27" y="98" width="48.4" height="10" rx="5" fill="#4F6BFF"/>
-<text x="27" y="126" class="s">147 / 1,200 XP to level 12</text>
+<rect x="27" y="98" width="344.0" height="10" rx="5" fill="#4F6BFF"/>
+<text x="27" y="126" class="s">1,045 / 1,200 XP to level 12</text>
 <line x1="27" y1="140" x2="423" y2="140" stroke="#21262d"/>
-<text x="76" y="168" class="v">7,747</text><text x="76" y="186" class="l">Total XP</text><text x="176" y="168" class="v">41</text><text x="176" y="186" class="l">Lessons</text><text x="274" y="168" class="v">Top 16%</text><text x="274" y="186" class="l">All-time</text><text x="374" y="168" class="v">4</text><text x="374" y="186" class="l">Achievements</text>
+<text x="76" y="168" class="v">8,645</text><text x="76" y="186" class="l">Total XP</text><text x="176" y="168" class="v">45</text><text x="176" y="186" class="l">Lessons</text><text x="274" y="168" class="v">Top 23.2%</text><text x="274" y="186" class="l">All-time</text><text x="374" y="168" class="v">4</text><text x="374" y="186" class="l">Achievements</text>
 </svg>

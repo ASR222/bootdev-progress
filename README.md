@@ -7,16 +7,16 @@ A GitHub Action reads my public Boot.dev profile every day and updates this page
 
 | Level | Rank | Total XP | Lessons completed | All-time leaderboard |
 |:-:|:-:|:-:|:-:|:-:|
-| **11** | Apprentice | 7,747 | 41 | Top 16% |
+| **11** | Apprentice | 8,645 | 45 | Top 23.2% |
 
 ## 📈 XP over time
 
 ```mermaid
 xychart-beta
-    title "Total XP (last 11 days tracked)"
-    x-axis ["10-21", "10-22", "10-23", "10-24", "10-25", "10-26", "10-27", "10-28", "10-29", "10-30", "10-31"]
+    title "Total XP (last 12 days tracked)"
+    x-axis ["10-21", "10-22", "10-23", "10-24", "10-25", "10-26", "10-27", "10-28", "10-29", "10-30", "10-31", "11-01"]
     y-axis "XP"
-    line [7100, 7100, 7100, 7100, 7100, 7100, 7100, 7100, 7100, 7100, 7747]
+    line [7100, 7100, 7100, 7100, 7100, 7100, 7100, 7100, 7100, 7100, 7747, 8645]
 ```
 
 ## 🏆 Achievements unlocked
@@ -32,6 +32,7 @@ xychart-beta
 
 | Date | Level | XP | Lessons |
 |---|:-:|--:|:-:|
+| 2026-11-01 | 11 | 8,645 | 45 |
 | 2026-10-31 | 11 | 7,747 | 41 |
 | 2026-10-30 | 10 | 7,100 | 37 |
 | 2026-10-29 | 10 | 7,100 | 37 |
@@ -48,4 +49,4 @@ xychart-beta
 
 Code I write for Boot.dev courses and guided projects lives in [`solutions/`](solutions/), one folder per course.
 
-<sub>Last updated 2026-10-31 04:05 IST · stats from the public Boot.dev API</sub>
+<sub>Last updated 2026-11-01 03:17 IST · stats from the public Boot.dev API</sub>
